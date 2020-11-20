@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Assisant', sans-serif;
+  font-family: 'Bellefair', serif;
   line-height: 1.5;
+  color:dimgrey;
 }
 
 a {
@@ -11,7 +12,7 @@ a {
 h1{
     font-family: 'Amatic SC', cursive;
     font-size: 40px;
-    color: darkred
+    color: darkred;
 }
 
 img{
@@ -21,7 +22,14 @@ img{
 }
 
 h2{
-    font-weight; 300
-    font-size; 36px
-    color; 
+    font-family: 'Bellefair', serif;
+    font-weight; 300;
+    font-size; 36px;
+    color: darkgreen;
+}
+
+div {
+    max-width: 800px;
+    margin: auto;
+    background-color: beige;
 }
