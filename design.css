@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Bellefair', serif;
   line-height: 1.5;
+  margin: 0;
   color:dimgrey;
 }
 
@@ -30,7 +31,7 @@ h2{
 
 h3{
     font-family: 'Bellefair', serif;
-    font-weight; 300;
+    font-weight; 300px;
     font-size; 36px;
     color: darkgreen;
 }
@@ -40,15 +41,23 @@ div {
     margin: auto;
 }
 
+li{
+ margin-bottom: 7px;
+}
+
 .cta 
   {  background-color: beige;
     font-size: 21px;
     text-align: center;
-    padding: 4mm;}
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 50px;
+}
 
 .cta h3
 {
     font-size: 25px
+    text-align: center;
 }
 
 .button {
@@ -63,10 +72,12 @@ div {
 .alignleft {
     float: left;
     max-height: 50%;
-    margin-right: 14px;
+    margin-right: 20px;
     margin-bottom: 14px;
-    overflow: hidden;
 }
 
+.cta .alignleft {
+    width: 200px;
+}
     
 
