@@ -77,5 +77,46 @@ li{
 .cta .alignleft {
     width: 200px;
 }
-    
 
+.news {
+   padding: 60px;
+background-image:linear; 
+}
+
+
+
+
+
+.newsletter {
+    background-image:url(img/p123.jpg);
+    background-position: center;
+    background-size: cover;
+    color: dimgrey
+    padding: 40px 10px 60px;
+    font-size: 21px;
+    text-align: center
+}
+.newsletter h2{
+    color: darkgoldenrod
+}
+
+button, input, textarea{
+  font: inherit;  
+    color: inherit;
+}
+
+.newsletter input{
+  background: transparent;
+  border: 1px solid #fff; 
+  padding: 5px;
+width: 300px;
+}
+
+.newsletter .button{
+    padding: 5px 30px;
+    background: #fff;
+    color: dimgrey;
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+}
