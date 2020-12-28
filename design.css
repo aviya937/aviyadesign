@@ -107,12 +107,13 @@ button, input, textarea{
   border: 0.5px solid #fff; 
   padding: 5px;
   width: 300px;
-  
   color:#ffff; 
 }
 
 .newsletter input:focus{
     outline: 0;
+    background:rgba(0,0,0,0.2); 
+    color:#ffff;
 }
 
 .newsletter .button{
@@ -126,6 +127,8 @@ button, input, textarea{
     cursor: pointer;
     background:#fff; 
     color:brown;
-    
-    
+}
+
+label {
+    margin-left: 20px;
 }
