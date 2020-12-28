@@ -85,16 +85,16 @@ background-image:linear;
 
 
 .newsletter {
-    background-image:url(img/p123.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(img/ppp.jpg);
     background-position: center;
     background-size:cover;
-    color:dimgrey;
-    padding: 30px 20px 30px;
+    color:#fff;
+    padding: 15px 20px 30px;
     font-size: 24px;
     text-align: center;
 }
 .newsletter h2{
-    color:coral;
+    color:#ffff;
 }
 
 button, input, textarea{
@@ -107,7 +107,7 @@ button, input, textarea{
   border: 0.5px solid #fff; 
   padding: 5px;
   width: 300px;
-  background: rgba(0,0,0,0.23);
+  
   color:#ffff; 
 }
 
@@ -125,7 +125,7 @@ button, input, textarea{
 .newsletter .button:hover{
     cursor: pointer;
     background:#fff; 
-    color:coral;
+    color:brown;
     
     
 }
