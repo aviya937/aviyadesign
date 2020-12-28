@@ -84,39 +84,48 @@ background-image:linear;
 }
 
 
-
-
-
 .newsletter {
     background-image:url(img/p123.jpg);
     background-position: center;
-    background-size: cover;
-    color: dimgrey
-    padding: 40px 10px 60px;
-    font-size: 21px;
-    text-align: center
+    background-size:cover;
+    color:dimgrey;
+    padding: 30px 20px 30px;
+    font-size: 24px;
+    text-align: center;
 }
 .newsletter h2{
-    color: darkgoldenrod
+    color:coral;
 }
 
 button, input, textarea{
   font: inherit;  
-    color: inherit;
+  color: inherit;
 }
 
 .newsletter input{
   background: transparent;
-  border: 1px solid #fff; 
+  border: 0.5px solid #fff; 
   padding: 5px;
-width: 300px;
+  width: 300px;
+  background: rgba(0,0,0,0.23);
+  color:#ffff; 
+}
+
+.newsletter input:focus{
+    outline: 0;
 }
 
 .newsletter .button{
     padding: 5px 30px;
-    background: #fff;
-    color: dimgrey;
     display: block;
     margin: 30px auto;
     width: 100px;
+}
+
+.newsletter .button:hover{
+    cursor: pointer;
+    background:#fff; 
+    color:coral;
+    
+    
 }
