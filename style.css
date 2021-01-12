@@ -46,22 +46,21 @@ h1 {
 
 .button{
     text-decoration: none;
-    border: 3px solid #fff; 
+    background:#fff; 
+    color:#E6007E;
+    border: 3px solid #E6007E;
     padding: 12px 18px;
     display: inline-block;
     margin-top: 10px;
     transition: 3s;
     border-radius: 100px;
-    color: #ffff;
     cursor: pointer;
-   
 }
 
 .button:hover{
-    cursor: pointer;
-    background:#fff; 
-    color:#E6007E;
-    border: 3px solid #E6007E; 
+   cursor: pointer;
+   background: #E6007E;
+   color: #ffff;
 }
 
 .logo {
