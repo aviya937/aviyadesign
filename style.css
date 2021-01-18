@@ -11,7 +11,7 @@ h1, h2, h3, .butten{
 }
 
 .about{
-    background:#efbac4;
+    background:#F7D0DD;
     font-size:24px;
     color: #ffff;
 }
@@ -78,7 +78,7 @@ h1 {
   grid-gap: 40px;
   font-size: 21px;
   text-align: center;
-  color: #E6007E;
+  color: #CC99CC;
 }
 
 .gallery img{
@@ -88,11 +88,11 @@ h1 {
 h2{
   font-size: 35px;
   text-align: center;
-  color: #E6007E;
+  color: #D1A1E5; 
 }
 
 .newsletter {
-    color:#E6007E;
+    color:#00BAE5;
     padding:0 0 10px;
     font-size: 20px;
     text-align: center;
@@ -103,22 +103,26 @@ button, input, textarea{
   color: inherit;
 }
 
+.newsletter h2{
+    color:#99DFF2; 
+}
+
 .newsletter input{
   background: transparent;
-  border: 0.5px solid #E6007E; 
+  border: 0.5px solid #99DFF2; 
   padding: 5px;
-  width: 300px;
-  color:#E6007E; 
+  width: 300px; 
 }
 
 .newsletter input:focus{
     outline: 0;
-    background:rgba(249,224,238,0.3); 
-    color:#E6007E;
+    background:rgba(188,222,237,0.3); 
+    color:#00BAE5;
 }
 
 .newsletter .button{
     background: #fff;
+    color: #00BAE5;
     padding: 5px 30px;
     display: block;
     margin: 20px auto;
@@ -127,7 +131,7 @@ button, input, textarea{
 
 .newsletter .button:hover{
     cursor: pointer;
-    background:#E6007E; 
+    background:#00BAE5; 
     color:#fff;
 }
 
