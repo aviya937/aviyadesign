@@ -1,3 +1,9 @@
+.logo{
+  max-width: 180px;
+  display: block;
+  margin: 10px auto;
+}
+
 body{
     font-family: 'Assistant', sans-serif;
     margin: 0;
@@ -63,12 +69,6 @@ h1 {
    color: #ffff;
 }
 
-.logo{
-  max-width: 180px;
-  display: block;
-  margin: 10px auto;
-}
-
 .gallery{
   list-style: none;
   padding: 0;
@@ -104,7 +104,9 @@ button, input, textarea{
 }
 
 .newsletter h2{
-    color:#99DFF2; 
+    color:#00BAE5;
+    margin-top: 50px;
+    font-size: 24px;
 }
 
 .newsletter input{
@@ -124,7 +126,6 @@ button, input, textarea{
     background: #fff;
     color: #00BAE5;
     padding: 5px 30px;
-    display: block;
     margin: 20px auto;
     width: 100px;
 }

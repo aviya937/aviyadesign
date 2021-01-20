@@ -61,7 +61,7 @@ p{
     margin: 8px 0 20px;
 }
 
-.button{
+.cta .button{
   text-decoration: none;
   background:#22B7C7; 
   color:#fff;
@@ -73,7 +73,7 @@ p{
   cursor: pointer;
 }
 
-.button:hover{
+.cta .button:hover{
   cursor: pointer;
   background:darkred;
   color: #ffff;
@@ -88,7 +88,7 @@ p{
 
 .cta .alignleft{
   width: 200px;
-    margin: 30px;
+  margin: 30px;
 }
 
 .news{
