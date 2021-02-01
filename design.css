@@ -84,6 +84,12 @@ p{
   max-height: 50%;
   margin-right: 20px;
   margin-bottom: 14px;
+  overflow: hidden;
+}
+
+.about img{
+    display: block
+    margin-top:40px;
 }
 
 .cta .alignleft{

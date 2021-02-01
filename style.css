@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Assistant', sans-serif;
-    margin: 0;
+    margin:0;
     line-height: 1.5;
 
 }
@@ -17,9 +17,12 @@ h1, h2, h3, .butten{
 }
 
 .about{
-    background:#F7D0DD;
-    font-size:24px;
-    color: #ffff;
+    background:url(img/%D7%9E%D7%A7%D7%A8%D7%95%D7%9F%D7%9F%D7%9F%D7%9F%D7%9F%D7%9F.jpg) center 40%;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size:21px;
+    color:#ec0b86;
+    padding:50px 0 0
 }
 
 .container{
@@ -41,7 +44,7 @@ img{
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 42px;
     line-height: 1.1;
 }
 
@@ -53,8 +56,8 @@ h1 {
 .button{
     text-decoration: none;
     background:#fff; 
-    color:#E6007E;
-    border: 0.5px solid #E6007E;
+    color:#ec0b86;
+    border: 0.7px solid #ec0b86;
     padding: 12px 18px;
     display: inline-block;
     margin-top: 15px;
@@ -65,7 +68,7 @@ h1 {
 
 .button:hover{
    cursor: pointer;
-   background: #E6007E;
+   background: #ec0b86;
    color: #ffff;
 }
 
@@ -78,7 +81,7 @@ h1 {
   grid-gap: 40px;
   font-size: 21px;
   text-align: center;
-  color: #CC99CC;
+  color:#58893e;
 }
 
 .gallery img{
@@ -88,11 +91,11 @@ h1 {
 h2{
   font-size: 35px;
   text-align: center;
-  color: #D1A1E5; 
+  color: #c3db99; 
 }
 
 .newsletter {
-    color:#00BAE5;
+    color:#ec0b86;
     padding:0 0 10px;
     font-size: 20px;
     text-align: center;
@@ -104,27 +107,27 @@ button, input, textarea{
 }
 
 .newsletter h2{
-    color:#00BAE5;
+    color:#ec0b86;
     margin-top: 50px;
     font-size: 24px;
 }
 
 .newsletter input{
   background: transparent;
-  border: 0.5px solid #99DFF2; 
+  border: 0.5px solid #ec0b86; 
   padding: 5px;
   width: 300px; 
 }
 
 .newsletter input:focus{
     outline: 0;
-    background:rgba(188,222,237,0.3); 
-    color:#00BAE5;
+    background:rgba(248,208,230,0.1); 
+    color:#ec0b86;
 }
 
 .newsletter .button{
     background: #fff;
-    color: #00BAE5;
+    color: #ec0b86;
     padding: 5px 30px;
     margin: 20px auto;
     width: 100px;
@@ -132,7 +135,7 @@ button, input, textarea{
 
 .newsletter .button:hover{
     cursor: pointer;
-    background:#00BAE5; 
+    background:#ec0b86; 
     color:#fff;
 }
 
@@ -142,10 +145,10 @@ label {
 
 .contact{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 28px;
     grid-gap: 40px;
-    background:#baefc3;
+    background:#d5f2b8;
     font-size: 21px;
     text-align: center;
     padding: 20px 0;
@@ -158,7 +161,7 @@ label {
 
 a{
     text-decoration: none;
-    color: #0f5d32;
+    color: #fff;
 }
 
 .contact a:hover{
@@ -168,7 +171,7 @@ a{
 .contact ul{
   list-style: none;
   padding: 0;
-  color:#0f5d32; 
+  color:#58893e; 
 }
 
 .contact li{
@@ -178,9 +181,9 @@ a{
 .footer{
   background: #ffff;
   text-align: center;
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
 .footer a{
-  margin: 0 15px;
+  margin: 0 12px;
 }
