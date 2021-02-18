@@ -81,7 +81,7 @@ h1 {
   grid-gap: 40px;
   font-size: 21px;
   text-align: center;
-  color:#58893e;
+  color:#35621E;
 }
 
 .gallery img{
@@ -91,7 +91,7 @@ h1 {
 h2{
   font-size: 35px;
   text-align: center;
-  color: #c3db99; 
+  color: #35621E; 
 }
 
 .newsletter {
@@ -155,7 +155,7 @@ label {
 }
 
 .contact h2{
-    color: #fff;
+    color: #35621E;
     margin: 10px;
 }
 
@@ -171,7 +171,7 @@ a{
 .contact ul{
   list-style: none;
   padding: 0;
-  color:#58893e; 
+  color:#22490C; 
 }
 
 .contact li{
