@@ -26,7 +26,7 @@ h1, h2, h3, .butten{
 }
 
 .container{
-    max-width: 1024px;
+    max-width:1024px;
     margin: auto;
 }
 
@@ -94,7 +94,7 @@ h2{
   color: #35621E; 
 }
 
-.newsletter {
+.newsletter{
     color:#ec0b86;
     padding:0 0 10px;
     font-size: 20px;
@@ -126,17 +126,8 @@ button, input, textarea{
 }
 
 .newsletter .button{
-    background: #fff;
-    color: #ec0b86;
-    padding: 5px 30px;
     margin: 20px auto;
     width: 100px;
-}
-
-.newsletter .button:hover{
-    cursor: pointer;
-    background:#ec0b86; 
-    color:#fff;
 }
 
 label {
@@ -181,7 +172,7 @@ a{
 .footer{
   background: #ffff;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .footer a{
