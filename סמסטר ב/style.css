@@ -37,7 +37,7 @@ body{
   margin: 0;
   font-family: 'OS Aran_W_500FFC','OS Aran_400FFC','opensans', sans-serif;
   line-height: 1.5;
-  background-color: #000;
+  background-color: ;
 }
 
 img{
@@ -50,7 +50,7 @@ h1{
     font-size: 50px;
     font-family:OS Aran_W_500FFC;
     font-weight: 500;
-    color: #fff;}
+    color: #000;}
 
 h1:after{
     content: "";
@@ -72,8 +72,8 @@ p{
 }
 
 h3{
-    color: #fff;
-    font-size: 33px;
+    color: #49616d;
+    font-size: 25px;
 }
 
 .button{
@@ -117,7 +117,7 @@ h3{
 }
 
 .features{
-    background:#000;
+    background:#fff;
     text-align: center;
 }
 
@@ -125,7 +125,7 @@ h3{
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 70px;  
 }
 
@@ -134,7 +134,7 @@ h3{
 }
 
 footer{
-    background:  #a22628;
+    background:  #233439;
     color: #fff;
     text-align: center;
     padding: 2px;
@@ -142,4 +142,22 @@ footer{
 
 footer a{
     color: #fff;
+}
+
+header {
+  text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px; 
+    display: block;
 }
