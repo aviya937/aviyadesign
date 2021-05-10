@@ -1,28 +1,14 @@
 @font-face{
-  font-family: 'opensans';
-  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-family: 'carmelit';
+  src: url('fonts/carmelit/400/opensanshebrew-regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'opensans';
-  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
+  font-family: 'carmelit';
+  src: url('fonts/carmelit/700/opensanshebrew-bold.woff') format('woff');
   font-weight: 700;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'OS Aran_400FFC';
-  src: url('fonts/aran/os_aran_400ffc-webfont.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'OS Aran_W_500FFC';
-  src: url('fonts/aran/os_aran_w_500ffc-webfont.woff') format('woff');
-  font-weight: 500;
   font-style: normal;
 }
 
@@ -35,7 +21,7 @@
 
 body{
   margin: 0;
-  font-family: 'OS Aran_W_500FFC','OS Aran_400FFC','opensans', sans-serif;
+  font-family: 'carmelit','carmela';
   line-height: 1.5;
 }
 
@@ -47,7 +33,7 @@ img{
 
 h1{ 
     font-size: 50px;
-    font-family:
+    font-family: carmelit;
     font-weight: 500;
     color: #6c2f41;
 }
@@ -63,7 +49,8 @@ h1:after{
 h2{
     font-size: 35px;
     color:#fff;
-    font-family:OS Aran_400FFC; }
+    font-family:carmelit;
+}
 
 p{
     font-family:;
@@ -179,3 +166,4 @@ nav a:hover {
 nav li {
   margin: 0 10px;
 }
+
